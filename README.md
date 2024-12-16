@@ -1,6 +1,6 @@
-# Docker for WINE
+# Docker for Novel Games
 
-DockerによるWINEコンテナ。bootのシェルスクリプトはWSL向けに特化されているが、本番Linuxでやるときは好きに改造して欲しい。
+DockerによるノベルゲームのためのWineコンテナ
 
 ## 動作確認
 
@@ -8,8 +8,6 @@ DockerによるWINEコンテナ。bootのシェルスクリプトはWSL向けに
 - WHITE ALBUM2 EXTENDED EDITION
 
 ## FORTUNE ARTERIAL
-
-フルスクリーン状態で終了すると次回もフルスクリーンで表示される。その際、ウィンドウがこちらの入力に対して一切反応しなくなってしまうことが多々あるが、`FORTUNE ARTERIAL/BGI.gdb`を削除すれば初期設定に戻すことが出来る。尚、この問題はWSLのみで確認。WHITE ALBUM2のために色々設定したので今は改善されているかも。
 
 ```
 MESA: error: Failed to query drm device.
